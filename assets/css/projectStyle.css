@@ -97,7 +97,7 @@ a.link:hover::before {
 }
 
 .space-md {
-    padding-top: 90px;
+    padding-top: 40px;
     padding-bottom: 90px
 }
 
@@ -360,7 +360,7 @@ Header intro
 /* Footer */
 
 .footer {
-    margin-top: 115px;
+    margin-top: 0px;
 }
 
 .footer .footer-title {
