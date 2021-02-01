@@ -7,6 +7,7 @@ Licensed under  CC BY 3.0
 ////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -57,6 +58,22 @@ h6 {
     margin-bottom: .5rem;
     font-weight: 600;
     line-height: 1.64;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+.lead {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.purple-text {
+    color: #694bea;
 }
 
 a {
@@ -135,10 +152,12 @@ a.link:hover::before {
         -webkit-transform: scale(1);
         border: 5px solid #222
     }
+
     50% {
         -webkit-transform: scale(0);
         border: 30px solid #222
     }
+
     100% {
         -webkit-transform: scale(1);
         border: 10px solid #222
@@ -151,11 +170,13 @@ a.link:hover::before {
         transform: scale(1);
         border: 5px solid #222
     }
+
     50% {
         -webkit-transform: scale(0);
         transform: scale(0);
         border: 30px solid #222
     }
+
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -392,4 +413,11 @@ Header intro
     background-color: #fff;
     border: 1px solid #e9ecef;
     border-radius: 0;
+}
+
+@media (max-width: 768px) {
+    .sm-center {
+        margin: 0 auto;
+        text-align: center;
+    }
 }
