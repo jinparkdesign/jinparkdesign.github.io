@@ -555,3 +555,18 @@ Header intro
         text-align: center;
     }
 }
+
+.video-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.embedded-video-16-9 {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

@@ -191,5 +191,5 @@
 })(jQuery);
 
 let openProject = function(projectName) {
-  location.href = `./${projectName}.html`;
+  location.href = `./projects/${projectName}.html`;
 }
