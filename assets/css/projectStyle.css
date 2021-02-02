@@ -8,6 +8,11 @@ Licensed under  CC BY 3.0
 
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
+@font-face {
+    font-family: 'craftism';
+    src: url('../font/D3Craftism.ttf') format('truetype');
+}
+
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -189,9 +194,9 @@ a.link:hover::before {
   Container tweak
 ///////////////////////*/
 
-.container {
+/* .container {
     max-width: 1440px
-}
+} */
 
 
 /*/////////////////////
@@ -212,8 +217,137 @@ Navigation
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
-    font-weight: 900;
+    font-weight: 400;
     text-transform: capitalize;
+    color: white;
+    font-family: 'craftism', 'Muli';
+}
+
+.navbar-collapse {
+    width: auto;
+}
+
+/* Mobile Nav Menu */
+/* Desktop Navigation */
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu>ul>li {
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    color: black;
+    padding: 10px 18px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+    border-radius: 50px;
+    background: white;
+    height: 56px;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.nav-menu a i {
+    font-size: 20px;
+}
+
+.nav-menu a span {
+    padding: 0 5px 0 7px;
+    color: black;
+}
+
+@media (min-width: 992px) {
+    .nav-menu-mobile {
+        display: none;
+    }
+}
+
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
+    color: rgb(255, 247, 132);
+    background: black;
+}
+
+.nav-menu a:hover span,
+.nav-menu .active>a span,
+.nav-menu li:hover>a span {
+    color: rgb(255, 247, 132);
+}
+
+.nav-menu a:hover,
+.nav-menu li:hover>a {
+    width: 100%;
+    color: rgb(255, 247, 132);
+}
+
+.nav-menu a:hover span,
+.nav-menu li:hover>a span {
+    display: block;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+@media (max-width: 992px) {
+    #header {
+        width: 300px;
+        background: rgb(255, 247, 132);
+
+        left: -300px;
+    }
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+    position: fixed;
+    right: 40px;
+    top: 26px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+}
+
+.mobile-nav-toggle i {
+    color: black;
+}
+
+.mobile-nav-active {
+    overflow: hidden;
+}
+
+.mobile-nav-active #header {
+    left: 0;
+}
+
+.mobile-nav-active .mobile-nav-toggle i {
+    color: black;
 }
 
 

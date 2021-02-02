@@ -4,13 +4,44 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+@font-face {
+  font-family: 'craftism';
+  src: url('../font/D3Craftism.ttf') format('truetype');
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #272829;
+}
+
+:root {
+  --primary-color: #694bea;
+  --secondary-color: #f8cf46;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: var(--primary-color)
+}
+
+::selection {
+  color: #fff;
+  background: var(--primary-color)
+}
+
+::-moz-selection {
+  color: var;
+  background: var(--primary-color)
 }
 
 a {
@@ -19,8 +50,8 @@ a {
 }
 
 a:hover {
-  color: #067ded;
-  text-decoration: none;
+  text-decoration: line-through;
+  color: var(--primary-color);
 }
 
 h1,
@@ -29,7 +60,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -143,17 +174,63 @@ h6 {
 @media (max-width: 992px) {
   #header {
     width: 300px;
-    background: darkslateblue;
+    background: rgb(255, 247, 132);
 
     left: -300px;
   }
 }
 
-@media (min-width: 992px) {
-  #main {
-    margin-left: 100px;
-  }
+
+/*/////////////////////
+Navigation
+///////////////////////*/
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 700;
+  letter-spacing: .04rem;
 }
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: white;
+  font-family: 'craftism', 'Muli';
+}
+
+.navbar-collapse {
+  width: auto;
+}
+
+
+.nav-menu-desktop {
+  background-color: black;
+  color: white;
+}
+
+.navbar a i {
+  font-size: 20px;
+}
+
+.navbar a span {
+  padding: 0 5px 0 7px;
+  font-weight: 700;
+  color: white;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+.navbar a:hover span,
+.navbar li:hover>a span {
+  display: block;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -192,17 +269,12 @@ h6 {
 
 .nav-menu a span {
   padding: 0 5px 0 7px;
-  color:black;
+  color: black;
 }
 
 @media (min-width: 992px) {
-  .nav-menu a {
-    width: 56px;
-  }
-
-  .nav-menu a span {
+  .nav-menu-mobile {
     display: none;
-    color: #fff;
   }
 }
 
@@ -233,8 +305,8 @@ h6 {
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
-  top: 15px;
+  right: 40px;
+  top: 26px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -259,7 +331,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: black;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -526,7 +598,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color:#000000;
+  color: #000000;
 }
 
 .resume .resume-item {
@@ -706,6 +778,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #148af9;
+
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -718,6 +791,7 @@ section {
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info::before {

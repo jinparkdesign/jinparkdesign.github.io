@@ -8,9 +8,13 @@
     <meta name="author" content="sharebootstrap.com" />
     <meta name="description" content="free bootstrap template by sharebootstrap.com">
     <link rel="canonical" href="https://sharebootstrap.com" />
-    <title>Minimal portfolio by ShareBootstrap.com</title>
+    <title>Jin Park</title>
+    <link href="assets/img/favicon.png" rel="icon">
     <!-- Bootstrap core CSS -->
     <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
     <!-- Fontaweome icons replacment -->
     <link rel="stylesheet"
         href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
@@ -27,19 +31,33 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3" id="mainNav">
         <div class="container"> <a class="navbar-brand js-scroll-trigger" href="index.html">Jin Park</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span
-                    class="navbar-toggler-icon"></span> </button>
+            <button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="index.html">Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="index.html#portfolio">Work</a>
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger"
+                            href="index.html#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="index.html#about">About</a> </li>
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="index.html#resume">Resume</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <header id="header" class="d-flex flex-column justify-content-center">
+        <nav class="nav-menu nav-menu-mobile">
+            <ul>
+                <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                <li><a href="index.html#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+                <li><a href="index.html#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+                <li><a href="index.html#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+            </ul>
+        </nav><!-- .nav-menu -->
+    </header>
+
+
+
     <header class="space-md">
         <div class="container">
             <div class="row d-flex align-content-center">
@@ -194,19 +212,27 @@
                 <div class="col-md-12">
                     <h3 class="mb-5">USER PERSONA</h3>
                     <figure> <img src="assets/img/persona.jpg" alt="" class="img-fluid"> </figure>
+                    <p class="lead">Creating user persona helps to understand user's experience, pain points, goals and
+                        needs.
+                        User persona is one of the best ways to step out of myself and empathize and identyfy with the
+                        user
+                        I am desining for.
+                    </p>
                 </div>
+
             </div>
 
             <div class="row">
                 <div class="col-md-12">
+                    <h3 class>SOLUTION</h3>
                 </div>
                 <div class="row space-md">
                     <div class="col-md-6">
-                        <figure> <img src="assets/img/portfolio/portfolio-1.png" alt="" class="img-fluid"> </figure>
+                        <figure> <img src="assets/img/solution.png" alt="" class="img-fluid"> </figure>
                     </div>
                     <div class="col-md-6">
                         <div>
-                            <h3 class>SOLUTION</h3>
+
                             <P class="h5">The app can guide the user on how to rent
                                 e-bikes with an intuitive on-boarding process.
                                 Once the user is familiar in the process of
@@ -235,20 +261,38 @@
                         <h3 class>USER FLOW DIAGRAM</h3>
                         <figure> <img src="assets/img/user flow.jpg" alt="" class="img-fluid"> </figure>
                     </div>
+                    <p class="lead">This user flow diagram shows how the users will navigate through the app. This helps
+                        me think
+                        about what happens to the user before and after they visit a particular page and focus on what
+                        is important.</p>
                 </div>
 
                 <div class="row space-md">
                     <div class="col-md-12">
-                        <h3 class>VISUAL DESIGN</h3>
+                        <h3 class>VISUAL DESIGN - LOGO STRATEGY</h3>
                         <figure> <img src="assets/img/logo strategy.jpg" alt="" class="img-fluid"> </figure>
                     </div>
                     <div class="col-md-12">
                         <figure> <img src="assets/img/final ecycle design.jpg" alt="" class="img-fluid"> </figure>
                     </div>
 
+
+                </div>
+
+                <div class="row space-md mt-5">
                     <div class="col-md-12">
+                        <h3 class>WIREFRAME SKETCHES</h3>
                         <figure> <img src="assets/img/wireframe1.jpg" alt="" class="img-fluid"> </figure>
                     </div>
+
+                    <div class="col-md-6">
+                        <figure> <img src="assets/img/wire1.jpg" alt="" class="img-fluid"> </figure>
+
+                    </div>
+                    <div class="col-md-6">
+                        <figure> <img src="assets/img/wire2.jpg" alt="" class="img-fluid"> </figure>
+                    </div>
+
                 </div>
 
             </div>
@@ -256,7 +300,7 @@
 
             <div class="row space-md">
                 <div class="col-md-12">
-                    <h3 class>High-Fidelity Wireframe</h3>
+                    <h3 class>HIGH FIDELITY WIREFRAME</h3>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
@@ -271,7 +315,8 @@
                     </div>
 
                     <div class="col-md-6 offset-md-3">
-                        <P class="h5">After the splash screen, the user can either sign up or log in these screens.
+                        <P class="h5 text-center">After the splash screen, the user can either sign up or log in these
+                            screens.
                             Also, they can log in with Apple, Facebook or Google accounts.</P>
                     </div>
                 </div>
@@ -307,7 +352,8 @@
                     </div>
 
                     <div class="col-md-6 offset-md-3">
-                        <P class="h5">Onboarding screen shows how the app works and safety rules and regulations about
+                        <P class="h5 text-center">Onboarding screen shows how the app works and safety rules and
+                            regulations about
                             e-cycle. The cards can be swiped left and right to navigate. The user has option to skip as
                             well.</P>
                     </div>
@@ -330,7 +376,8 @@
                     </div>
 
                     <div class="col-md-6 offset-md-3">
-                        <P class="h5">The user lands on the main screen which shows a map that displays the locations of
+                        <P class="h5 text-center">The user lands on the main screen which shows a map that displays the
+                            locations of
                             the e-cycle stations based on the user's current location. They can search a place or
                             station in the search bar. The left menu shows some features like feature, ride history,
                             help and account. The right menu shows e-cycles in a list view. There is an option to sort
@@ -355,7 +402,8 @@
                     </div>
 
                     <div class="col-md-6 offset-md-3">
-                        <P class="h5">Once the user selects a station, it displays available e-cycles, distance from the
+                        <P class="h5 text-center">Once the user selects a station, it displays available e-cycles,
+                            distance from the
                             user and empty docks. Then they can select an available e-cycle and see the details such as
                             location, power, max distance and max speed. There is also an option to mark a station as
                             favourite.</P>
@@ -379,7 +427,8 @@
                     </div>
 
                     <div class="col-md-6 offset-md-3">
-                        <P class="h5">The user can choose a duration and make a reservation. They have the option to pay
+                        <P class="h5 text-center">The user can choose a duration and make a reservation. They have the
+                            option to pay
                             with their credit card, Apple/Samsung pay and Paypal. The payment information can be saved
                             for future reservations. Then, the user has to agree to the terms and conditions to complete
                             the reservation.</P>
@@ -403,7 +452,8 @@
                     </div>
 
                     <div class="col-md-6 offset-md-3">
-                        <P class="h5">After an e-cycle is reserved, the app navigates the user to the station. They can
+                        <P class="h5 text-center">After an e-cycle is reserved, the app navigates the user to the
+                            station. They can
                             also cancel their reservation within one hour.</P>
                     </div>
                 </div>
@@ -425,7 +475,8 @@
                     </div>
 
                     <div class="col-md-6 offset-md-3">
-                        <P class="h5">When the user arrives at the station, they can unlock the bike with the code that
+                        <P class="h5 text-center">When the user arrives at the station, they can unlock the bike with
+                            the code that
                             is provided by the app. The app displays the battery life and how much time is left and they
                             have the option to extend their ride. After the ride is finished, it displays the ride
                             history.</P>
@@ -450,7 +501,8 @@
                     </div>
 
                     <div class="col-md-6 offset-md-3">
-                        <P class="h5">There are other features such as help, articles about benfits of e-cycle, account
+                        <P class="h5 text-center">There are other features such as help, articles about benfits of
+                            e-cycle, account
                             details, and report issue.</P>
                     </div>
                 </div>
