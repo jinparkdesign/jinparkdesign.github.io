@@ -573,3 +573,9 @@ Header intro
     width: 100%;
     position: absolute;
 }
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
