@@ -166,9 +166,13 @@ h6 {
   left: 0;
   bottom: 0;
   z-index: 9997;
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
   padding: 15px;
   overflow-y: auto;
+}
+
+.header-animation {
+  transition: all 0.5s;
 }
 
 @media (max-width: 992px) {
@@ -305,7 +309,7 @@ Navigation
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 40px;
+  right: 24px;
   top: 26px;
   z-index: 9998;
   border: 0;
