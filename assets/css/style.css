@@ -1349,3 +1349,11 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.btn-download {
+  border-radius: 16px;
+  background-color: rgb(255, 247, 132);
+  border: none;
+  padding: 8px 24px;
+  margin-top: 32px;
+}
