@@ -67,7 +67,7 @@ const Item = ({
     subtitle
 }) => `
 <div class="col-md-6 portfolio-item filter-3d">
-<div class="portfolio-wrap" onclick="openProject('${link}')" style="height: 357px; overflow: hidden;">
+<div class="portfolio-wrap suggested-project" onclick="openProject('${link}')">
   <img src="../assets/img/portfolio/${img}" class="img-fluid" alt="">
   <div class="portfolio-info">
     <h4>${title}</h4>
