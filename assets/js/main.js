@@ -189,11 +189,6 @@
     items: 1
   });
 
-  $('#resume-download').attr({
-    target: '_blank',
-    href: './file/Resume_Jin_Park.pdf'
-  });
-
 })(jQuery);
 
 let openProject = function (projectName) {
