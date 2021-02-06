@@ -119,8 +119,8 @@ a.link:hover::before {
 }
 
 .space-md {
-    padding-top: 40px;
-    padding-bottom: 90px
+    margin-top: 40px;
+    margin-bottom: 90px
 }
 
 #preloader {
@@ -756,5 +756,9 @@ Header intro
 @media (max-width: 992px) {
     .suggested-project {
         height: 190px;
+    }
+
+    .vertical-center {
+        height: auto;
     }
 }

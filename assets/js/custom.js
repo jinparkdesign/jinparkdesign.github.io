@@ -55,6 +55,41 @@ let suggestedProjects = [{
         img: "drive1.gif",
         title: "\"Park Your Phone\"",
         subtitle: "Graphic & Motion Design | 2020"
+    },
+     {
+        id: 7,
+        link: "visual-rhetoric",
+        img: "purple.gif",
+        title: "\"Visual Rhetoric Shape Morph\"",
+        subtitle: "Motion Graphic | 2020"
+    },
+     {
+        id: 8,
+        link: "icon",
+        img: "Icon pack.jpg",
+        title: "\"Icons - Political Leaders\"",
+        subtitle: "Icon Design | 2020"
+    },
+    {
+        id: 9,
+        link: "illustrations",
+        img: "illustration.jpg",
+        title: "\"Digital Drawing\"",
+        subtitle: "My Hobby | 2019"
+    },
+    {
+        id: 10,
+        link: "magazine",
+        img: "layout.jpg",
+        title: "\"Red Velvet In Magazine\"",
+        subtitle: "Layout Design | 2020"
+    },
+    {
+        id: 11,
+        link: "VFX-animation",
+        img: "video.gif",
+        title: "\"VFX & Animation\"",
+        subtitle: "Parallax & Motion Tracking | 2020"
     }
 ];
 
