@@ -557,6 +557,22 @@ Header intro
         margin: 0 auto;
         text-align: center;
     }
+
+    .lead {
+        text-align: center;
+    }
+
+    .headline-title {
+        text-align: center;
+    }
+
+    .headline-subtitle {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
 }
 
 .video-container {
