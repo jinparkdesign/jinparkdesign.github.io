@@ -400,12 +400,6 @@ Navigation
   padding-bottom: 300px;
 }
 
-@media (min-width: 992px) {
-  #hero {
-    padding-left: 160px;
-  }
-}
-
 #hero:before {
   content: "";
   /* background: rgba(255, 255, 255, 0.8); */
