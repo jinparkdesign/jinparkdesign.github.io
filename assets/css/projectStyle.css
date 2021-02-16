@@ -7,7 +7,7 @@ Licensed under  CC BY 3.0
 ////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
 @font-face {
     font-family: 'craftism';
     src: url('../font/D3Craftism.ttf') format('truetype');
@@ -45,7 +45,7 @@ Change your color here
 
 body {
     padding-top: 120px;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 
 .h1,
