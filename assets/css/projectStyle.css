@@ -67,7 +67,7 @@ h6 {
 }
 
 h3 {
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .lead {
@@ -122,6 +122,25 @@ a.link:hover::before {
 .space-md {
     margin-top: 40px;
     margin-bottom: 90px
+}
+
+
+.space-lg {
+    margin-top: 40px;
+    margin-bottom: 180px
+}
+
+.space-xlg {
+    margin-top: 40px;
+    margin-bottom: 240px
+}
+
+.space-blg {
+    margin-bottom: 200px
+}
+
+.space-tlg {
+    margin-top: 200px
 }
 
 #preloader {
@@ -574,6 +593,11 @@ Header intro
     h3 {
         text-align: center;
     }
+    
+    .h5,
+    .h4 {
+        text-align: center;
+    }
 
     .green {
         text-align: center;
@@ -762,18 +786,28 @@ Header intro
     color: green;
 }
 
+.darkgreen {
+    color: darkslategrey;
+}
+
+.purple {
+    color: #694bea;
+}
+
 .font-weight-900 {
     font-weight: 600;
 }
 
 .brainstorm-container {
     background-color: #fdf5e6;
-    padding: 20px 50px;
+    padding: 50px 50px;
 }
 
 .logo-img {
     max-width: 120px;
 }
+
+
 
 @media (max-width: 992px) {
     .suggested-project {
@@ -783,4 +817,15 @@ Header intro
     .vertical-center {
         height: auto;
     }
+}
+
+.extender:before {
+    right: -999em;
+    background:  #0b3b52;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 999em;
+    top: 0;
+    bottom: 0;
 }
