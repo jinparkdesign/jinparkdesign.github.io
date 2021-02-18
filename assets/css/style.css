@@ -283,6 +283,7 @@ Navigation
 .navbar a:hover span,
 .navbar li:hover>a span {
   display: block;
+  color: darkorchid;
 }
 
 
@@ -1350,4 +1351,8 @@ section {
   border: none;
   padding: 8px 24px;
   margin-top: 32px;
+}
+
+.logo-img {
+  max-width: 120px;
 }
