@@ -593,7 +593,7 @@ Header intro
     h3 {
         text-align: center;
     }
-    
+
     .h5,
     .h4 {
         text-align: center;
@@ -813,7 +813,6 @@ Header intro
 
 .center {
     text-align: center
-
 }
 
 .line-height {
@@ -835,7 +834,7 @@ Header intro
 
 .extender:before {
     right: -999em;
-    background:  #0b3b52;
+    background: #0b3b52;
     content: '';
     display: block;
     position: absolute;
