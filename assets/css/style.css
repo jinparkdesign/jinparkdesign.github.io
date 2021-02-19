@@ -425,7 +425,7 @@ Navigation
 
 #hero .container {
   text-align: center;
-  margin-top: 38px;
+  margin-top: 293px;
 }
 
 #hero p {
@@ -473,8 +473,7 @@ Navigation
 
 #hero .hero-img {
   margin: 0 auto;
-  max-width: 445px;
-  margin-top: 120px;
+  max-width: 350px;
 }
 
 #hero .wave-img {
@@ -496,6 +495,10 @@ Navigation
     line-height: 36px;
   }
 
+  #hero .container {
+    margin-top: 170px;
+  }
+
   #hero p {
     margin-top: 10px;
     font-size: 20px;
@@ -503,17 +506,19 @@ Navigation
   }
 
   #hero .hero-img {
-    max-width: 375px;
-    margin-top: 175px;
+    /* max-width: 375px; */
+    display: none;
   }
 
   #hero .wave-img {
-    max-width: none;
-    width: 100%;
+    /* max-width: none;
+    width: 100%; */
+    display: none;
   }
 
   #hero h5 {
     margin-top: 20px;
+    padding: 0px 30px;
   }
 
   #hero .sub-heading {
