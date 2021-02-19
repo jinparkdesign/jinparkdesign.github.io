@@ -442,11 +442,11 @@ Navigation
 }
 
 #hero h5 {
-  color: darkgrey;
+  color: white;
   margin-top: 29px;
   font-family: 'Barlow';
   font-weight: 100;
-  line-height: 1.3;
+  line-height: 2;
   font-size: 17px;
 }
 
@@ -482,7 +482,7 @@ Navigation
 }
 
 #hero .highlight {
-  color: lightgoldenrodyellow;
+  color: rgb(215, 154, 255);
 }
 
 @media (max-width: 992px) {
