@@ -504,6 +504,14 @@ Navigation
     max-width: none;
     width: 100%;
   }
+
+  #hero h5 {
+    margin-top: 20px;
+  }
+
+  #hero .sub-heading {
+    margin-top: 48px;
+  }
 }
 
 /*--------------------------------------------------------------
