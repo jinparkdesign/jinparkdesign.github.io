@@ -162,38 +162,38 @@ h6 {
 
 @-webkit-keyframes loader {
   0% {
-      -webkit-transform: scale(1);
-      border: 5px solid #222
+    -webkit-transform: scale(1);
+    border: 5px solid #222
   }
 
   50% {
-      -webkit-transform: scale(0);
-      border: 30px solid #222
+    -webkit-transform: scale(0);
+    border: 30px solid #222
   }
 
   100% {
-      -webkit-transform: scale(1);
-      border: 10px solid #222
+    -webkit-transform: scale(1);
+    border: 10px solid #222
   }
 }
 
 @keyframes loader {
   0% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-      border: 5px solid #222
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    border: 5px solid #222
   }
 
   50% {
-      -webkit-transform: scale(0);
-      transform: scale(0);
-      border: 30px solid #222
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    border: 30px solid #222
   }
 
   100% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-      border: 10px solid #222
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    border: 10px solid #222
   }
 }
 
@@ -414,9 +414,10 @@ Navigation
 #hero h1 {
   margin: 0;
   font-size: 64px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 56px;
   color: white;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #hero .container {
@@ -428,12 +429,24 @@ Navigation
   color: white;
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
 }
 
 #hero p span {
   color: rgb(255, 247, 132);
   letter-spacing: 1px;
+}
+
+#hero h5 {
+  color: grey;
+  margin-top: 29px;
+  font-family: 'Archivo';
+  font-weight: 100;
+}
+
+#hero .sub-heading {
+  margin-top: 100px;
 }
 
 #hero .social-links {
