@@ -54,9 +54,13 @@ a:hover {
   color: var(--primary-color);
 }
 
-h1,
 h2,
-h3,
+h3
+{
+  font-family: Barlow;
+}
+
+h1,
 h4,
 h5,
 h6 {
@@ -414,10 +418,10 @@ Navigation
 #hero h1 {
   margin: 0;
   font-size: 64px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 56px;
   color: white;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'barlow'
 }
 
 #hero .container {
@@ -429,8 +433,8 @@ Navigation
   color: white;
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 300;
+  font-family: "Muli";
+  font-weight: 200;
 }
 
 #hero p span {
@@ -439,9 +443,9 @@ Navigation
 }
 
 #hero h5 {
-  color: grey;
+  color: darkgrey;
   margin-top: 29px;
-  font-family: 'Archivo';
+  font-family: 'barlow';
   font-weight: 100;
 }
 
@@ -523,6 +527,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: black;
+  font-weight: 600;
 }
 
 .section-title h2::before {
