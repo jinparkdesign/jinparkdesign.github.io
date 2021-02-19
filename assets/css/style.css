@@ -286,7 +286,7 @@ Navigation
 .navbar a:hover span,
 .navbar li:hover>a span {
   display: block;
-  color: darkorchid;
+  color: rgb(215, 154, 255);
 }
 
 
