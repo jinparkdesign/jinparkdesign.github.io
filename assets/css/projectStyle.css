@@ -578,7 +578,7 @@ Header intro
         text-align: center;
     }
 
-    .lead {
+    /* .lead {
         text-align: center;
     }
 
@@ -601,7 +601,7 @@ Header intro
 
     .green {
         text-align: center;
-    }
+    } */
 }
 
 .video-container {
