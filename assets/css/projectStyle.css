@@ -572,9 +572,6 @@ Header intro
     border-radius: 0;
 }
 
-.max-70 {
-    max-width: 70%;
-}
 
 @media (max-width: 768px) {
     .sm-center {
@@ -606,7 +603,7 @@ Header intro
     .green {
         text-align: center;
     } */
-    
+
 }
 
 .video-container {
@@ -828,7 +825,13 @@ Header intro
     max-width: 70%;
 }
 
+.max-70 {
+    max-width: 70%;
+}
 
+.max-80 {
+    max-width: 80%;
+}
 
 @media (max-width: 992px) {
     .suggested-project {
@@ -843,7 +846,8 @@ Header intro
         max-width: 100%;
     }
 
-    .max-70 {
+    .max-70,
+    .max-80 {
         width: 100%;
     }
 }
