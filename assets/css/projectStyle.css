@@ -572,6 +572,10 @@ Header intro
     border-radius: 0;
 }
 
+.max-70 {
+    max-width: 70%;
+}
+
 @media (max-width: 768px) {
     .sm-center {
         margin: 0 auto;
@@ -602,6 +606,7 @@ Header intro
     .green {
         text-align: center;
     } */
+    
 }
 
 .video-container {
@@ -836,6 +841,10 @@ Header intro
 
     .sticky-note-img {
         max-width: 100%;
+    }
+
+    .max-70 {
+        width: 100%;
     }
 }
 
