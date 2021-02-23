@@ -785,11 +785,11 @@ Header intro
 }
 
 .green {
-    color: green;
+    color: #24D3B1;
 }
 
 .darkgreen {
-    color: darkslategrey;
+    color: #00B215;
 }
 
 .purple {
@@ -805,7 +805,7 @@ Header intro
 }
 
 .brainstorm-container {
-    background-color: #fdf5e6;
+    background-color: #f2fdff;
     padding: 50px 50px;
 }
 
@@ -848,7 +848,7 @@ Header intro
 
     .max-70,
     .max-80 {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
