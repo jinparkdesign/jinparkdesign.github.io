@@ -804,6 +804,10 @@ Header intro
     color: #5F71FB;
 }
 
+.grey {
+    color: grey;
+}
+
 .font-weight-900 {
     font-weight: 600;
 }

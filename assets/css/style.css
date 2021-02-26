@@ -780,6 +780,10 @@ section {
   align-items: flex-end;
 }
 
+.portfolio li {
+  text-align: left;
+}
+
 .portfolio .portfolio-title {
   background-color: black;
   color: white;
@@ -957,6 +961,17 @@ section {
   right: 15px;
 }
 
+.green {
+  color: #00a584;
+}
+
+.purple {
+  color: #694bea;
+}
+
+.orange {
+  color: #ff8e59;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -1389,7 +1404,7 @@ section {
   }
 
   .right-text {
-    padding-left: 0;
+    padding: 0 24``px;
   }
 
   .margin-top-small-screen {
@@ -1426,7 +1441,7 @@ section {
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 0 0 12px 0;
 }
 
 #footer .social-links {
