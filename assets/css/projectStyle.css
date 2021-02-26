@@ -784,6 +784,10 @@ Header intro
     height: 357px;
 }
 
+.suggested-project-not-random {
+    height: 357px;
+}
+
 .green {
     color: #24D3B1;
 }
@@ -835,6 +839,10 @@ Header intro
 
 @media (max-width: 992px) {
     .suggested-project {
+        height: 190px;
+    }
+
+    .suggested-project-not-random {
         height: 190px;
     }
 

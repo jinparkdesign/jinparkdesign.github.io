@@ -17,7 +17,7 @@ let suggestedProjects = [{
     {
         id: 1,
         link: "conneqtion",
-        img: "UX3.png",
+        img: "UX3.jpg",
         title: "\"ConneQtion Mobile App\"",
         subtitle: "UX/UI Design | 2020"
     },
@@ -31,7 +31,7 @@ let suggestedProjects = [{
     {
         id: 3,
         link: "project",
-        img: "portfolio-1.png",
+        img: "ecycle.jpg",
         title: "eCycle App Design",
         subtitle: "UX/UI Design | 2020"
     },
@@ -90,6 +90,13 @@ let suggestedProjects = [{
         img: "video.gif",
         title: "\"VFX & Animation\"",
         subtitle: "Parallax & Motion Tracking | 2020"
+    },
+    {
+        id: 12,
+        link: "save-my-fridge",
+        img: "fridge2.jpg",
+        title: "\"Save My Fridge\"",
+        subtitle: "UX/UI Design | 2021"
     }
 ];
 

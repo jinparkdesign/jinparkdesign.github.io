@@ -6,6 +6,7 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap');
+
 @font-face {
   font-family: 'craftism';
   src: url('../font/D3Craftism.ttf') format('truetype');
@@ -643,7 +644,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -741,6 +742,71 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.main-project-container {
+  padding: 80px 0;
+}
+
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.view-project-btn {
+  max-width: 180px;
+}
+
+.right-text {
+  padding: 0 48px;
+}
+
+.portfolio {
+  padding: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.font-weight-900 {
+  font-weight: 900;
+}
+
+.left-text {
+  padding-right: 40px;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.portfolio .portfolio-title {
+  background-color: black;
+  color: white;
+}
+
+.portfolio .first-section-title h2 {
+  color: white;
+}
+
+.portfolio .first-section-title h2::after {
+  background: white;
+}
+
+.portfolio-container1 {
+  background-color: #abe7db;
+}
+
+.portfolio-container2 {
+  background-color: #b7b8fa;
+
+}
+
+.portfolio-container3 {
+  background-color: rgb(255, 216, 184);
+
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1320,6 +1386,19 @@ section {
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
+  }
+
+  .right-text {
+    padding-left: 0;
+  }
+
+  .margin-top-small-screen {
+    margin-top: 48px;
+    text-align: center;
+  }
+
+  .center-sm {
+    margin: 0 auto;
   }
 }
 
