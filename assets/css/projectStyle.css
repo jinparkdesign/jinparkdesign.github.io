@@ -817,6 +817,12 @@ Header intro
     padding: 50px 50px;
 }
 
+.point-container {
+    background: rgb(225, 241, 255);
+    background: linear-gradient(-45deg, rgba(225, 241, 255, 1) 0%, rgba(238, 238, 255, 1) 64%, rgba(245, 247, 255, 1) 100%);
+    padding: 50px 50px;
+}
+
 .logo-img {
     max-width: 120px;
 }
